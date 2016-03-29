@@ -4,31 +4,6 @@ email: mailbox@lvdesign.com.fr
 description: Jekyll avec Prose 
 baseurl: /jekyllProse
 
-#config
-prose:
-    siteurl: 'http://lvdesign.github.io/jekyllProse'
-    rooturl: '_posts'
-    media: 'media'
-    metadata:
-        _posts:
-            - name: "layout"
-                field:
-                    element: "hidden"
-                    value: "post"
-            - name: "categories"
-                field:
-                    element: "multiselect"
-                    label: "Add categorie"
-                    placeholder: "Add Categories"
-                    alterable: true
-            - name: "title"
-                field:
-                    element: "text"
-                    label: "title"
-            - name: "Textarea"
-                field:
-                    element: "textarea"
-                    label: "textarea"
 
 twitter_username: lvdesign
 github_username:  lvdesign
