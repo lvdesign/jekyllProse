@@ -19,28 +19,20 @@ prose:
             field:
                 element: "hidden"
                 value: "post"
-        
         - name: "categories"
             field:
-                elements: "multiselect"
+                element: "multiselect"
                 label: "Add categorie"
                 placeholder: "Add Categories"
                 alterable: true
-            
         - name: "title"
             field:
                 element: "text"
                 label: "title"
-        
         - name: "Textarea"
             field:
                 element: "textarea"
                 label: "text"
-
-
-
-
-
 
 twitter_username: lvdesign
 github_username:  lvdesign
